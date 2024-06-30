@@ -1,2 +1,2 @@
 # LiLO
-Real-Time Link Length Optimization(LiLO) for Highly Efficient Quadruped Robot
+Real-Time Optimization of Link Length for Highly Efficient Quadruped Robots
