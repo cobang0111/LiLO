@@ -1,2 +1,2 @@
 # ROLL
-Real-Time Optimization of Link Length for Highly Efficient Quadruped Robots
+Real-time Optimization of Link Length for highly efficient quadruped robots
