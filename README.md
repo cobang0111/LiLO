@@ -20,14 +20,14 @@ We suggest new mechanism that adjust input link length using sub actuator and op
 3D CAD Modeling
 <br>
 
-<img src="https://github.com/cobang0111/ROLL/blob/main/image/3dcad_modeling.png" width="400">
+<img src="https://github.com/cobang0111/ROLL/blob/main/image/3dcad_modeling.png" width="320">
 
 
 
 Metal Modeling (Stainless steel + Aluminium)
 <br>
 
-<img src="https://github.com/cobang0111/ROLL/blob/main/image/metal_modeling.png" width="400">
+<img src="https://github.com/cobang0111/ROLL/blob/main/image/metal_modeling.png" width="320">
 
 <br>
 
@@ -53,21 +53,27 @@ Input Link Length (Bl2446s Motor)
 - TI launchpad f28379d Motor Driver
 
 
-
-
 <br>
 
 ## ✨Overview
-
+coming soon
 <br>
+<img src="https://github.com/cobang0111/ROLL/blob/main/image/link_length_adjustment.png" width="640">
 
+<img src="https://github.com/cobang0111/ROLL/blob/main/image/model_dynamics.png" width="640">
+
+<img src="https://github.com/cobang0111/ROLL/blob/main/image/new_term_graph.png" width="640">
+
+<img src="https://github.com/cobang0111/ROLL/blob/main/image/optimization_problem.png" width="640">
 
 ## ✨Execution
-
+coming soon
 <br>
 
 
 ## ✨Result
+
+<img src="https://github.com/cobang0111/ROLL/blob/main/image/result_graph.jpg" width="640">
 
 <br>
 
