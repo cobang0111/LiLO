@@ -60,6 +60,7 @@ coming soon
 <br>
 
 - Our Method
+  <br>
   We optimized the input link length under the constraint of motor. 
   <br>
   
@@ -79,17 +80,23 @@ coming soon
   <img src="https://github.com/cobang0111/ROLL/blob/main/image/optimization_problem.png" width="640">
 
   <br>
+  
   We know about the torque term from model dynamics. <br>
   All the things are same as other quadruped robot leg except the knee torque term. 
   <br>
   
   <img src="https://github.com/cobang0111/ROLL/blob/main/image/model_dynamics.png" width="640">
 
-  Non-liner function f determined on the convex plane.
-  We know the initial point on the plane.
-  And we know the next $$\theta_2$$
+  Non-liner function f determined on the convex plane. <br>
+  We know the initial point on the plane. <br>
+  And we already know the next time step theta_2 (knee theta) <br>
+  We can determine the optimal length L1 that maximize f term under constraint.
+  <br>
+  
   <img src="https://github.com/cobang0111/ROLL/blob/main/image/new_term_graph.png" width="640">
 
+  <br>
+  By solving constrained optimization problem, we can get the optimal link length that minimizing energy consumption. <br> 
 
 
 ## ✨Execution
@@ -99,7 +106,11 @@ coming soon
 
 ## ✨Result
 
+By integrating the absolute value of the current over time to compare energy consumption, the application of optimization resulted in a 29.4% reduction in energy consumption.
+<br>
+
 <img src="https://github.com/cobang0111/ROLL/blob/main/image/result_graph.jpg" width="640">
+
 
 <br>
 
