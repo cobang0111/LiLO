@@ -70,8 +70,6 @@ coming soon
   We determined the trajectory of end effector to carry out sit and stand task. <br>
   Then, we obtained the angle trajectory of 2 main motor(hip and knee) by solving inverse kinematics of legs. <br>  
 
-  <br>
-
   To optimize the input link length, we set the constrained optimization problem as like below. <br>
   All constraint from the specification of hardware. <br>
   Our main optimization purpose is reducing energy consumtion.
@@ -96,7 +94,10 @@ coming soon
   <img src="https://github.com/cobang0111/ROLL/blob/main/image/new_term_graph.png" width="640">
 
   <br>
-  By solving constrained optimization problem, we can get the optimal link length that minimizing energy consumption. <br> 
+  
+  By solving constrained optimization problem, we can get the optimal link length that minimizing energy consumption.
+
+  <br> 
 
 
 ## ✨Execution
