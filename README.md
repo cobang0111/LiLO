@@ -43,7 +43,7 @@ Knee (AK80-9 Motor)
 
 <img src="https://github.com/cobang0111/ROLL/blob/main/image/knee.gif" width="320">
 
-Input Link Length (Bl2446s Motor)
+Input Link Length (BL2446S Motor)
 <br>
 
 <img src="https://github.com/cobang0111/ROLL/blob/main/image/clutch.gif" width="320">
@@ -58,13 +58,39 @@ Input Link Length (Bl2446s Motor)
 ## ✨Overview
 coming soon
 <br>
-<img src="https://github.com/cobang0111/ROLL/blob/main/image/link_length_adjustment.png" width="640">
 
-<img src="https://github.com/cobang0111/ROLL/blob/main/image/model_dynamics.png" width="640">
+- Our Method
+  We optimized the input link length under the constraint of motor. 
+  <br>
+  
+  <img src="https://github.com/cobang0111/ROLL/blob/main/image/link_length_adjustment.png" width="640">
 
-<img src="https://github.com/cobang0111/ROLL/blob/main/image/new_term_graph.png" width="640">
+  First, we focused on a sit and stand task using position control. <br>
+  We determined the trajectory of end effector to carry out sit and stand task. <br>
+  Then, we obtained the angle trajectory of 2 main motor(hip and knee) by solving inverse kinematics of legs. <br>  
 
-<img src="https://github.com/cobang0111/ROLL/blob/main/image/optimization_problem.png" width="640">
+  <br>
+
+  To optimize the input link length, we set the constrained optimization problem as like below. <br>
+  All constraint from the specification of hardware. <br>
+  Our main optimization purpose is reducing energy consumtion.
+  <br>  
+
+  <img src="https://github.com/cobang0111/ROLL/blob/main/image/optimization_problem.png" width="640">
+
+  <br>
+  We know about the torque term from model dynamics. <br>
+  All the things are same as other quadruped robot leg except the knee torque term. 
+  <br>
+  
+  <img src="https://github.com/cobang0111/ROLL/blob/main/image/model_dynamics.png" width="640">
+
+  Non-liner function f determined on the convex plane.
+  We know the initial point on the plane.
+  And we know the next $$\theta_2$$
+  <img src="https://github.com/cobang0111/ROLL/blob/main/image/new_term_graph.png" width="640">
+
+
 
 ## ✨Execution
 coming soon
